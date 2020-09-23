@@ -1,0 +1,14 @@
+
+AuthUserFile C:/users/Gaceri/password/.htpasswd
+AuthName "My resume files"
+AuthType Basic
+<Limit GET POST>
+require user Micheni
+</Limit>
+
+RewriteEngine on
+# If a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Otherwise forward it to index.php
+RewriteRule . index.php 
