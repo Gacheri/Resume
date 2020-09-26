@@ -2,6 +2,7 @@
 
 namespace frontend\assets;
 
+
 use yii\web\AssetBundle;
 
 /**
@@ -12,14 +13,14 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'theme/assets/css/style.css',
         'theme/assets/vendor/bootstrap/css/bootstrap.min.css',
         'theme/assets/vendor/icofont/icofont.min.css',
         'theme/assets/vendor/boxicons/css/boxicons.min.css',
         'theme/assets/vendor/venobox/venobox.css',
         'theme/assets/vendor/owl.carousel/assets/owl.carousel.min.css',
         'theme/assets/vendor/aos/aos.css',
-        'theme/assets/css/style.css',      
+              
     ];
     public $js = [
        'theme/assets/vendor/jquery/jquery.min.js',

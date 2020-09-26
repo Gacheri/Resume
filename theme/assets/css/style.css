@@ -372,9 +372,12 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+#section-p{
+	font-size:2em;
+}
 .about .content h3 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 3em;
   color: #728394;
 }
 
@@ -388,7 +391,7 @@ section {
 }
 
 .about .content ul i {
-  font-size: 20px;
+  font-size: 30px;
   padding-right: 2px;
   color: #0563bb;
 }
@@ -436,12 +439,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 50px;
   display: block;
-  background: none;
+  background: none; 
+  width: 25em;
+  height:auto;
 }
 
 .skills .progress .skill {
