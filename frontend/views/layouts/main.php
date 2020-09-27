@@ -17,13 +17,13 @@ AppAsset::register($this);
 <?php $this->beginPage() ?>
 
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>">
+<html lang="eng">
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title>Brenda the great</title>
     <meta content="Brenda Gaceri Portfolio" name="descriptison">
     <meta content="Brenda, Gaceri, php" name="keywords">
     
@@ -85,7 +85,7 @@ AppAsset::register($this);
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="theme/assets/img/profile-pic.png" class="img-fluid" alt="">
+            <img src="myImages/profile-pic.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Software Engineer.</h3>
